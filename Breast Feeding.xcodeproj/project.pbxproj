@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6A7322419770F1300C0EBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7322319770F1300C0EBC8 /* AppDelegate.swift */; };
+		D6A7322719770F1300C0EBC8 /* Breast_Feeding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6A7322519770F1300C0EBC8 /* Breast_Feeding.xcdatamodeld */; };
+		D6A7322919770F1300C0EBC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7322819770F1300C0EBC8 /* ViewController.swift */; };
+		D6A7322C19770F1300C0EBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A7322A19770F1300C0EBC8 /* Main.storyboard */; };
+		D6A7322E19770F1300C0EBC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A7322D19770F1300C0EBC8 /* Images.xcassets */; };
+		D6A7323A19770F1300C0EBC8 /* Breast_FeedingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A7323919770F1300C0EBC8 /* Breast_FeedingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6A7323419770F1300C0EBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6A7321619770F1300C0EBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6A7321D19770F1300C0EBC8;
+			remoteInfo = "Breast Feeding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6A7321E19770F1300C0EBC8 /* Breast Feeding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breast Feeding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A7322219770F1300C0EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A7322319770F1300C0EBC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6A7322619770F1300C0EBC8 /* Breast_Feeding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Breast_Feeding.xcdatamodel; sourceTree = "<group>"; };
+		D6A7322819770F1300C0EBC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6A7322B19770F1300C0EBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6A7322D19770F1300C0EBC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6A7323319770F1300C0EBC8 /* Breast FeedingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breast FeedingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A7323819770F1300C0EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A7323919770F1300C0EBC8 /* Breast_FeedingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breast_FeedingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6A7321B19770F1300C0EBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7323019770F1300C0EBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6A7321519770F1300C0EBC8 = {
+			isa = PBXGroup;
+			children = (
+				D6A7322019770F1300C0EBC8 /* Breast Feeding */,
+				D6A7323619770F1300C0EBC8 /* Breast FeedingTests */,
+				D6A7321F19770F1300C0EBC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6A7321F19770F1300C0EBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7321E19770F1300C0EBC8 /* Breast Feeding.app */,
+				D6A7323319770F1300C0EBC8 /* Breast FeedingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6A7322019770F1300C0EBC8 /* Breast Feeding */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7322319770F1300C0EBC8 /* AppDelegate.swift */,
+				D6A7322819770F1300C0EBC8 /* ViewController.swift */,
+				D6A7322A19770F1300C0EBC8 /* Main.storyboard */,
+				D6A7322D19770F1300C0EBC8 /* Images.xcassets */,
+				D6A7322519770F1300C0EBC8 /* Breast_Feeding.xcdatamodeld */,
+				D6A7322119770F1300C0EBC8 /* Supporting Files */,
+			);
+			path = "Breast Feeding";
+			sourceTree = "<group>";
+		};
+		D6A7322119770F1300C0EBC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7322219770F1300C0EBC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6A7323619770F1300C0EBC8 /* Breast FeedingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7323919770F1300C0EBC8 /* Breast_FeedingTests.swift */,
+				D6A7323719770F1300C0EBC8 /* Supporting Files */,
+			);
+			path = "Breast FeedingTests";
+			sourceTree = "<group>";
+		};
+		D6A7323719770F1300C0EBC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6A7323819770F1300C0EBC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6A7321D19770F1300C0EBC8 /* Breast Feeding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A7323D19770F1300C0EBC8 /* Build configuration list for PBXNativeTarget "Breast Feeding" */;
+			buildPhases = (
+				D6A7321A19770F1300C0EBC8 /* Sources */,
+				D6A7321B19770F1300C0EBC8 /* Frameworks */,
+				D6A7321C19770F1300C0EBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breast Feeding";
+			productName = "Breast Feeding";
+			productReference = D6A7321E19770F1300C0EBC8 /* Breast Feeding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6A7323219770F1300C0EBC8 /* Breast FeedingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6A7324019770F1300C0EBC8 /* Build configuration list for PBXNativeTarget "Breast FeedingTests" */;
+			buildPhases = (
+				D6A7322F19770F1300C0EBC8 /* Sources */,
+				D6A7323019770F1300C0EBC8 /* Frameworks */,
+				D6A7323119770F1300C0EBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6A7323519770F1300C0EBC8 /* PBXTargetDependency */,
+			);
+			name = "Breast FeedingTests";
+			productName = "Breast FeedingTests";
+			productReference = D6A7323319770F1300C0EBC8 /* Breast FeedingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6A7321619770F1300C0EBC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Fairbanksdan;
+				TargetAttributes = {
+					D6A7321D19770F1300C0EBC8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D6A7323219770F1300C0EBC8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D6A7321D19770F1300C0EBC8;
+					};
+				};
+			};
+			buildConfigurationList = D6A7321919770F1300C0EBC8 /* Build configuration list for PBXProject "Breast Feeding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6A7321519770F1300C0EBC8;
+			productRefGroup = D6A7321F19770F1300C0EBC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6A7321D19770F1300C0EBC8 /* Breast Feeding */,
+				D6A7323219770F1300C0EBC8 /* Breast FeedingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6A7321C19770F1300C0EBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7322C19770F1300C0EBC8 /* Main.storyboard in Resources */,
+				D6A7322E19770F1300C0EBC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7323119770F1300C0EBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6A7321A19770F1300C0EBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7322919770F1300C0EBC8 /* ViewController.swift in Sources */,
+				D6A7322419770F1300C0EBC8 /* AppDelegate.swift in Sources */,
+				D6A7322719770F1300C0EBC8 /* Breast_Feeding.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7322F19770F1300C0EBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7323A19770F1300C0EBC8 /* Breast_FeedingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6A7323519770F1300C0EBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6A7321D19770F1300C0EBC8 /* Breast Feeding */;
+			targetProxy = D6A7323419770F1300C0EBC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6A7322A19770F1300C0EBC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6A7322B19770F1300C0EBC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6A7323B19770F1300C0EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6A7323C19770F1300C0EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6A7323E19770F1300C0EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Breast Feeding/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6A7323F19770F1300C0EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Breast Feeding/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6A7324119770F1300C0EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Breast Feeding.app/Breast Feeding";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Breast FeedingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D6A7324219770F1300C0EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Breast Feeding.app/Breast Feeding";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Breast FeedingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6A7321919770F1300C0EBC8 /* Build configuration list for PBXProject "Breast Feeding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7323B19770F1300C0EBC8 /* Debug */,
+				D6A7323C19770F1300C0EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A7323D19770F1300C0EBC8 /* Build configuration list for PBXNativeTarget "Breast Feeding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7323E19770F1300C0EBC8 /* Debug */,
+				D6A7323F19770F1300C0EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6A7324019770F1300C0EBC8 /* Build configuration list for PBXNativeTarget "Breast FeedingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A7324119770F1300C0EBC8 /* Debug */,
+				D6A7324219770F1300C0EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6A7322519770F1300C0EBC8 /* Breast_Feeding.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6A7322619770F1300C0EBC8 /* Breast_Feeding.xcdatamodel */,
+			);
+			currentVersion = D6A7322619770F1300C0EBC8 /* Breast_Feeding.xcdatamodel */;
+			path = Breast_Feeding.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D6A7321619770F1300C0EBC8 /* Project object */;
+}
